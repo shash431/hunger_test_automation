@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet(s) Test Suite" >
+    <test name="GET_Pets_By_Status,GET_Pets_By_Id">
+        <classes>
+            <class name="com.tests.pets.tests.GetPetTest"/>
+        </classes>
+    </test>
+    <test name="Add a new pet to the store,Updates a pet in the store with form data">
+        <classes>
+            <class name="com.tests.pets.tests.PostPetTest"/>
+        </classes>
+    </test>
+    <test name="PUT to update the Pet">
+        <classes>
+            <class name="com.tests.pets.tests.PutRequestPets"/>
+        </classes>
+    </test>
+    <test name="DELETE a Pet">
+        <classes>
+            <class name="com.tests.pets.tests.DeletePet"/>
+        </classes>
+    </test>
+    <test name="POST an image to the Pet">
+        <classes>
+            <class name="com.tests.pets.tests.UploadFile"/>
+        </classes>
+    </test>
+</suite>

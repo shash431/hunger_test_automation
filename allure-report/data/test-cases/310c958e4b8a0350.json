@@ -1,0 +1,168 @@
+{
+  "uid" : "310c958e4b8a0350",
+  "name" : "getPetById",
+  "fullName" : "com.tests.pets.tests.GetPetTest.getPetById",
+  "historyId" : "b0ecbd155c90aee04b3a6e9254221473",
+  "time" : {
+    "start" : 1588236894924,
+    "stop" : 1588236896578,
+    "duration" : 1654
+  },
+  "description" : "This request includes get pets by Id",
+  "descriptionHtml" : "<p>This request includes get pets by Id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1588236890398
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1588236890399,
+      "stop" : 1588236891457,
+      "duration" : 1058
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1588236891463
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1588236891463,
+      "stop" : 1588236894677,
+      "duration" : 3214
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73faae810c19262c",
+      "name" : "Request",
+      "source" : "73faae810c19262c.html",
+      "type" : "text/html",
+      "size" : 291
+    }, {
+      "uid" : "5a1c95a3d9498d24",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "5a1c95a3d9498d24.html",
+      "type" : "text/html",
+      "size" : 275998
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "This request includes get pets by Id",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e9f3d7a1954c7013",
+      "name" : "Request",
+      "source" : "e9f3d7a1954c7013.html",
+      "type" : "text/html",
+      "size" : 261
+    }, {
+      "uid" : "c8178d12a3e46b46",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c8178d12a3e46b46.html",
+      "type" : "text/html",
+      "size" : 1021
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.tests.pets.tests.GetPetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.tests.pets.tests.GetPetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPetById"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Pet(s) Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "GET_Pets_By_Status,GET_Pets_By_Id"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.tests.pets.tests.GetPetTest"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "8126@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "GET Pets By Id"
+  }, {
+    "name" : "epic",
+    "value" : "GET pet(s) by status and Id"
+  }, {
+    "name" : "feature",
+    "value" : "Get Request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "310c958e4b8a0350.json",
+  "parameterValues" : [ ]
+}

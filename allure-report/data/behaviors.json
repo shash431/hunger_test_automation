@@ -1,0 +1,181 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "GET pet(s) by status and Id",
+    "children" : [ {
+      "name" : "Get Request",
+      "children" : [ {
+        "name" : "GET Pets By Id",
+        "children" : [ {
+          "name" : "getPetById",
+          "uid" : "310c958e4b8a0350",
+          "parentUid" : "269b92886588eda382e6216ed28a689d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236894924,
+            "stop" : 1588236896578,
+            "duration" : 1654
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "269b92886588eda382e6216ed28a689d"
+      }, {
+        "name" : "Error Case: GET Pets By Id",
+        "children" : [ {
+          "name" : "getPetByIdError",
+          "uid" : "964e72a5090e5cd1",
+          "parentUid" : "f46a76c92ad5eeec783494419b6da74a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236896644,
+            "stop" : 1588236897083,
+            "duration" : 439
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f46a76c92ad5eeec783494419b6da74a"
+      }, {
+        "name" : "GET Pets By Status",
+        "children" : [ {
+          "name" : "getPetByStatus",
+          "uid" : "c0a2f002dddfc210",
+          "parentUid" : "96eb965c4f054e550394b3e6a97616d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236897093,
+            "stop" : 1588236897094,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96eb965c4f054e550394b3e6a97616d8"
+      } ],
+      "uid" : "e47f319cd4167a1980f69536a26db4b2"
+    } ],
+    "uid" : "9cee059c1af1393dc6d35e1634766825"
+  }, {
+    "name" : "POST a new pet and update the Pet",
+    "children" : [ {
+      "name" : "Post Request",
+      "children" : [ {
+        "name" : "Add a new pet to the store",
+        "children" : [ {
+          "name" : "postPet",
+          "uid" : "aa2e251080561c49",
+          "parentUid" : "78eabb97b23b10d815261270f52470d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236897829,
+            "stop" : 1588236898546,
+            "duration" : 717
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "78eabb97b23b10d815261270f52470d1"
+      }, {
+        "name" : "Updates a pet in the store with form data",
+        "children" : [ {
+          "name" : "postPetFormData",
+          "uid" : "62cf30ef99a91f0a",
+          "parentUid" : "77e4ac40d5f12215a291d29f70472d4b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236898549,
+            "stop" : 1588236898986,
+            "duration" : 437
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "77e4ac40d5f12215a291d29f70472d4b"
+      } ],
+      "uid" : "63ea87216f828a956db52654094db555"
+    } ],
+    "uid" : "b0c60a436efe33ae2722074c983d560b"
+  }, {
+    "name" : "PUT to update the Pet",
+    "children" : [ {
+      "name" : "Put Request",
+      "children" : [ {
+        "name" : "Update an existing pet",
+        "children" : [ {
+          "name" : "updatePet",
+          "uid" : "e5aa79cc25c61e76",
+          "parentUid" : "cd549dc936bd51a77c0575dfb91d4ba8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236899761,
+            "stop" : 1588236900284,
+            "duration" : 523
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cd549dc936bd51a77c0575dfb91d4ba8"
+      } ],
+      "uid" : "3d0062beef2a0e22b345a0188b07136f"
+    } ],
+    "uid" : "9ba0b41b9816b362f58b34e60090bfd3"
+  }, {
+    "name" : "DELETE a Pet",
+    "children" : [ {
+      "name" : "Delete Request",
+      "children" : [ {
+        "name" : "DELETE Pets By Id",
+        "children" : [ {
+          "name" : "deletePet",
+          "uid" : "9209877a2397a50e",
+          "parentUid" : "e80dd733285fee3f97535f332b64aa76",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236901017,
+            "stop" : 1588236901420,
+            "duration" : 403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e80dd733285fee3f97535f332b64aa76"
+      } ],
+      "uid" : "d7ded93e419e3f6f4bda2d194179eb35"
+    } ],
+    "uid" : "f5ea79a6e1ccc9684491ba29f5e596f9"
+  }, {
+    "name" : "POST an image to the Pet",
+    "children" : [ {
+      "name" : "Post Request",
+      "children" : [ {
+        "name" : "Image uploads an image",
+        "children" : [ {
+          "name" : "uploadFile",
+          "uid" : "ee2fba1fec229e1a",
+          "parentUid" : "625975c8863f56362b336ed5ed84fba4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588236902103,
+            "stop" : 1588236903070,
+            "duration" : 967
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "625975c8863f56362b336ed5ed84fba4"
+      } ],
+      "uid" : "7eb8efaf1baf609bb9c026ad28177647"
+    } ],
+    "uid" : "bb35ef49ac6746732f579ec0daa25624"
+  } ]
+}

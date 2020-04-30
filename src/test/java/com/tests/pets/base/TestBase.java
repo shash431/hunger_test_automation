@@ -1,0 +1,14 @@
+package com.tests.pets.base;
+
+import io.restassured.RestAssured;
+import org.junit.jupiter.api.BeforeAll;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+
+public class TestBase {
+    @BeforeTest
+    public static void init(){
+        RestAssured.baseURI="https://petstore.swagger.io";
+        RestAssured.basePath="/v2";
+    }
+}
