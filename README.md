@@ -12,11 +12,10 @@ Report will be generated into temp folder. Web server with results will start.
 
 mvn allure:report
 
- allure generate ./target/allure-results
+ allure generate ./allure-results
               or
- allure serve /homepath/target/allure-results 
-          or 
- allure serve ./target/allure-results       
+ allure serve /allure-results 
+        
  
 
 
