@@ -1,22 +1,22 @@
 {
-  "uid" : "c0a2f002dddfc210",
-  "name" : "getPetByStatus",
-  "fullName" : "com.tests.pets.tests.GetPetTest.getPetByStatus",
-  "historyId" : "1e5f4f24f7a162a3af6f09808e0f454d",
+  "uid" : "fd1866242db3ba03",
+  "name" : "getPetByIdError",
+  "fullName" : "com.tests.pets.tests.GetPetTest.getPetByIdError",
+  "historyId" : "459bd76ac2037f4d08ecf6eb45bb931",
   "time" : {
-    "start" : 1588236897093,
-    "stop" : 1588236897094,
-    "duration" : 1
+    "start" : 1588260014776,
+    "stop" : 1588260015295,
+    "duration" : 519
   },
-  "description" : "This request includes get pets by status",
-  "descriptionHtml" : "<p>This request includes get pets by status</p>\n",
+  "description" : "This request includes get the error response for pet not found",
+  "descriptionHtml" : "<p>This request includes get the error response for pet not found</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "init",
     "time" : {
-      "start" : 1588236890398
+      "start" : 1588260009480
     },
     "description" : "",
     "status" : "unknown",
@@ -30,9 +30,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1588236890399,
-      "stop" : 1588236891457,
-      "duration" : 1058
+      "start" : 1588260009482,
+      "stop" : 1588260010479,
+      "duration" : 997
     },
     "description" : "",
     "status" : "passed",
@@ -46,7 +46,7 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236891463
+      "start" : 1588260010485
     },
     "description" : "",
     "status" : "unknown",
@@ -60,25 +60,25 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236891463,
-      "stop" : 1588236894677,
-      "duration" : 3214
+      "start" : 1588260010485,
+      "stop" : 1588260013547,
+      "duration" : 3062
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "73faae810c19262c",
+      "uid" : "22bd006c4c009852",
       "name" : "Request",
-      "source" : "73faae810c19262c.html",
+      "source" : "22bd006c4c009852.html",
       "type" : "text/html",
       "size" : 291
     }, {
-      "uid" : "5a1c95a3d9498d24",
+      "uid" : "4f39424eabf54d10",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "5a1c95a3d9498d24.html",
+      "source" : "4f39424eabf54d10.html",
       "type" : "text/html",
-      "size" : 275998
+      "size" : 274294
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -86,6 +86,29 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   } ],
+  "testStage" : {
+    "description" : "This request includes get the error response for pet not found",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76632d3e7ff3b55c",
+      "name" : "Request",
+      "source" : "76632d3e7ff3b55c.html",
+      "type" : "text/html",
+      "size" : 271
+    }, {
+      "uid" : "4249ece49e5a8526",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "4249ece49e5a8526.html",
+      "type" : "text/html",
+      "size" : 661
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
@@ -95,7 +118,7 @@
     "value" : "com.tests.pets.tests.GetPetTest"
   }, {
     "name" : "testMethod",
-    "value" : "getPetByStatus"
+    "value" : "getPetByIdError"
   }, {
     "name" : "parentSuite",
     "value" : "Pet(s) Test Suite"
@@ -110,7 +133,7 @@
     "value" : "PCWDF507.local"
   }, {
     "name" : "thread",
-    "value" : "8126@PCWDF507.local.main(1)"
+    "value" : "29748@PCWDF507.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -119,13 +142,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "GET Pets By Status"
-  }, {
-    "name" : "epic",
-    "value" : "GET pet(s) by status and Id"
+    "value" : "Error Case: GET Pets By Id"
   }, {
     "name" : "feature",
     "value" : "Get Request"
+  }, {
+    "name" : "epic",
+    "value" : "GET pet(s) by status and Id"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -140,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c0a2f002dddfc210.json",
+  "source" : "fd1866242db3ba03.json",
   "parameterValues" : [ ]
 }

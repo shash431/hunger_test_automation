@@ -1,22 +1,22 @@
 {
-  "uid" : "964e72a5090e5cd1",
-  "name" : "getPetByIdError",
-  "fullName" : "com.tests.pets.tests.GetPetTest.getPetByIdError",
-  "historyId" : "459bd76ac2037f4d08ecf6eb45bb931",
+  "uid" : "3771a3cf891fb30c",
+  "name" : "updatePet",
+  "fullName" : "com.tests.pets.tests.PutRequestPets.updatePet",
+  "historyId" : "4d51ea4c03fd0ffcdb0aefb06bea979a",
   "time" : {
-    "start" : 1588236896644,
-    "stop" : 1588236897083,
-    "duration" : 439
+    "start" : 1588260017920,
+    "stop" : 1588260018423,
+    "duration" : 503
   },
-  "description" : "This request includes get the error response for pet not found",
-  "descriptionHtml" : "<p>This request includes get the error response for pet not found</p>\n",
+  "description" : "This request includes updates an existing pet",
+  "descriptionHtml" : "<p>This request includes updates an existing pet</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "init",
     "time" : {
-      "start" : 1588236890398
+      "start" : 1588260017190
     },
     "description" : "",
     "status" : "unknown",
@@ -30,9 +30,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1588236890399,
-      "stop" : 1588236891457,
-      "duration" : 1058
+      "start" : 1588260017190,
+      "stop" : 1588260017190,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -46,7 +46,7 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236891463
+      "start" : 1588260017190
     },
     "description" : "",
     "status" : "unknown",
@@ -60,25 +60,25 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236891463,
-      "stop" : 1588236894677,
-      "duration" : 3214
+      "start" : 1588260017190,
+      "stop" : 1588260017917,
+      "duration" : 727
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "73faae810c19262c",
+      "uid" : "795ec6027e738f65",
       "name" : "Request",
-      "source" : "73faae810c19262c.html",
+      "source" : "795ec6027e738f65.html",
       "type" : "text/html",
       "size" : 291
     }, {
-      "uid" : "5a1c95a3d9498d24",
+      "uid" : "28a34aec4a3fa157",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "5a1c95a3d9498d24.html",
+      "source" : "28a34aec4a3fa157.html",
       "type" : "text/html",
-      "size" : 275998
+      "size" : 274989
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -87,21 +87,21 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "This request includes get the error response for pet not found",
+    "description" : "This request includes updates an existing pet",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f57799b233c28179",
+      "uid" : "212ba5b0204c5cfb",
       "name" : "Request",
-      "source" : "f57799b233c28179.html",
+      "source" : "212ba5b0204c5cfb.html",
       "type" : "text/html",
-      "size" : 271
+      "size" : 1707
     }, {
-      "uid" : "c34f783fd766ee1",
-      "name" : "HTTP/1.1 404 Not Found",
-      "source" : "c34f783fd766ee1.html",
+      "uid" : "c9f633bb8526ea7",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c9f633bb8526ea7.html",
       "type" : "text/html",
-      "size" : 661
+      "size" : 1147
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -112,28 +112,28 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.tests.pets.tests.GetPetTest"
+    "value" : "com.tests.pets.tests.PutRequestPets"
   }, {
     "name" : "testClass",
-    "value" : "com.tests.pets.tests.GetPetTest"
+    "value" : "com.tests.pets.tests.PutRequestPets"
   }, {
     "name" : "testMethod",
-    "value" : "getPetByIdError"
+    "value" : "updatePet"
   }, {
     "name" : "parentSuite",
     "value" : "Pet(s) Test Suite"
   }, {
     "name" : "suite",
-    "value" : "GET_Pets_By_Status,GET_Pets_By_Id"
+    "value" : "PUT to update the Pet"
   }, {
     "name" : "subSuite",
-    "value" : "com.tests.pets.tests.GetPetTest"
+    "value" : "com.tests.pets.tests.PutRequestPets"
   }, {
     "name" : "host",
     "value" : "PCWDF507.local"
   }, {
     "name" : "thread",
-    "value" : "8126@PCWDF507.local.main(1)"
+    "value" : "29748@PCWDF507.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -142,13 +142,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Error Case: GET Pets By Id"
-  }, {
-    "name" : "epic",
-    "value" : "GET pet(s) by status and Id"
+    "value" : "Update an existing pet"
   }, {
     "name" : "feature",
-    "value" : "Get Request"
+    "value" : "Put Request"
+  }, {
+    "name" : "epic",
+    "value" : "PUT to update the Pet"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "964e72a5090e5cd1.json",
+  "source" : "3771a3cf891fb30c.json",
   "parameterValues" : [ ]
 }

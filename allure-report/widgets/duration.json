@@ -1,80 +1,80 @@
 [ {
-  "uid" : "c0a2f002dddfc210",
+  "uid" : "3771a3cf891fb30c",
+  "name" : "updatePet",
+  "time" : {
+    "start" : 1588260017920,
+    "stop" : 1588260018423,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e46c6b90642aacee",
   "name" : "getPetByStatus",
   "time" : {
-    "start" : 1588236897093,
-    "stop" : 1588236897094,
+    "start" : 1588260015305,
+    "stop" : 1588260015306,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "964e72a5090e5cd1",
-  "name" : "getPetByIdError",
-  "time" : {
-    "start" : 1588236896644,
-    "stop" : 1588236897083,
-    "duration" : 439
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5aa79cc25c61e76",
-  "name" : "updatePet",
-  "time" : {
-    "start" : 1588236899761,
-    "stop" : 1588236900284,
-    "duration" : 523
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee2fba1fec229e1a",
-  "name" : "uploadFile",
-  "time" : {
-    "start" : 1588236902103,
-    "stop" : 1588236903070,
-    "duration" : 967
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "62cf30ef99a91f0a",
-  "name" : "postPetFormData",
-  "time" : {
-    "start" : 1588236898549,
-    "stop" : 1588236898986,
-    "duration" : 437
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "310c958e4b8a0350",
+  "uid" : "9d652f2d75fe036b",
   "name" : "getPetById",
   "time" : {
-    "start" : 1588236894924,
-    "stop" : 1588236896578,
-    "duration" : 1654
+    "start" : 1588260013766,
+    "stop" : 1588260014731,
+    "duration" : 965
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aa2e251080561c49",
-  "name" : "postPet",
+  "uid" : "fd1866242db3ba03",
+  "name" : "getPetByIdError",
   "time" : {
-    "start" : 1588236897829,
-    "stop" : 1588236898546,
-    "duration" : 717
+    "start" : 1588260014776,
+    "stop" : 1588260015295,
+    "duration" : 519
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9209877a2397a50e",
+  "uid" : "c8964e3167bbd3d5",
   "name" : "deletePet",
   "time" : {
-    "start" : 1588236901017,
-    "stop" : 1588236901420,
-    "duration" : 403
+    "start" : 1588260019133,
+    "stop" : 1588260019523,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22231dbb2d58f423",
+  "name" : "postPet",
+  "time" : {
+    "start" : 1588260016077,
+    "stop" : 1588260016741,
+    "duration" : 664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c28c6e81e70b3fe7",
+  "name" : "postPetFormData",
+  "time" : {
+    "start" : 1588260016746,
+    "stop" : 1588260017186,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3630f15a213a8b8",
+  "name" : "uploadFile",
+  "time" : {
+    "start" : 1588260020172,
+    "stop" : 1588260021080,
+    "duration" : 908
   },
   "status" : "passed",
   "severity" : "normal"

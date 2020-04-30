@@ -1,22 +1,22 @@
 {
-  "uid" : "aa2e251080561c49",
-  "name" : "postPet",
-  "fullName" : "com.tests.pets.tests.PostPetTest.postPet",
-  "historyId" : "4e88f4aa369d07605d9e4041d700d58c",
+  "uid" : "3630f15a213a8b8",
+  "name" : "uploadFile",
+  "fullName" : "com.tests.pets.tests.UploadFile.uploadFile",
+  "historyId" : "c04d946538eaa503c2cdf4502c806c39",
   "time" : {
-    "start" : 1588236897829,
-    "stop" : 1588236898546,
-    "duration" : 717
+    "start" : 1588260020172,
+    "stop" : 1588260021080,
+    "duration" : 908
   },
-  "description" : "This request includes Post new pets",
-  "descriptionHtml" : "<p>This request includes Post new pets</p>\n",
+  "description" : "This request includes images upload for an existing pet",
+  "descriptionHtml" : "<p>This request includes images upload for an existing pet</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "init",
     "time" : {
-      "start" : 1588236897127
+      "start" : 1588260019527
     },
     "description" : "",
     "status" : "unknown",
@@ -30,8 +30,8 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1588236897127,
-      "stop" : 1588236897127,
+      "start" : 1588260019527,
+      "stop" : 1588260019527,
       "duration" : 0
     },
     "description" : "",
@@ -46,7 +46,7 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236897127
+      "start" : 1588260019527
     },
     "description" : "",
     "status" : "unknown",
@@ -60,25 +60,25 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236897127,
-      "stop" : 1588236897823,
-      "duration" : 696
+      "start" : 1588260019527,
+      "stop" : 1588260020169,
+      "duration" : 642
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a4660573910f37e1",
+      "uid" : "c2365c202d7c9ac2",
       "name" : "Request",
-      "source" : "a4660573910f37e1.html",
+      "source" : "c2365c202d7c9ac2.html",
       "type" : "text/html",
       "size" : 291
     }, {
-      "uid" : "e0e8a358e77761f0",
+      "uid" : "99fb80b235b95b6e",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "e0e8a358e77761f0.html",
+      "source" : "99fb80b235b95b6e.html",
       "type" : "text/html",
-      "size" : 275998
+      "size" : 274266
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -87,21 +87,21 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "This request includes Post new pets",
+    "description" : "This request includes images upload for an existing pet",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "58ca3f892f76d982",
+      "uid" : "b28e28468c3522ed",
       "name" : "Request",
-      "source" : "58ca3f892f76d982.html",
+      "source" : "b28e28468c3522ed.html",
       "type" : "text/html",
-      "size" : 1673
+      "size" : 397
     }, {
-      "uid" : "da5b544b1529c253",
+      "uid" : "d4cd10a97dfa9642",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "da5b544b1529c253.html",
+      "source" : "d4cd10a97dfa9642.html",
       "type" : "text/html",
-      "size" : 1142
+      "size" : 725
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -112,28 +112,28 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.tests.pets.tests.PostPetTest"
+    "value" : "com.tests.pets.tests.UploadFile"
   }, {
     "name" : "testClass",
-    "value" : "com.tests.pets.tests.PostPetTest"
+    "value" : "com.tests.pets.tests.UploadFile"
   }, {
     "name" : "testMethod",
-    "value" : "postPet"
+    "value" : "uploadFile"
   }, {
     "name" : "parentSuite",
     "value" : "Pet(s) Test Suite"
   }, {
     "name" : "suite",
-    "value" : "Add a new pet to the store,Updates a pet in the store with form data"
+    "value" : "POST an image to the Pet"
   }, {
     "name" : "subSuite",
-    "value" : "com.tests.pets.tests.PostPetTest"
+    "value" : "com.tests.pets.tests.UploadFile"
   }, {
     "name" : "host",
     "value" : "PCWDF507.local"
   }, {
     "name" : "thread",
-    "value" : "8126@PCWDF507.local.main(1)"
+    "value" : "29748@PCWDF507.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -142,13 +142,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Add a new pet to the store"
-  }, {
-    "name" : "epic",
-    "value" : "POST a new pet and update the Pet"
+    "value" : "Image uploads an image"
   }, {
     "name" : "feature",
     "value" : "Post Request"
+  }, {
+    "name" : "epic",
+    "value" : "POST an image to the Pet"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aa2e251080561c49.json",
+  "source" : "3630f15a213a8b8.json",
   "parameterValues" : [ ]
 }

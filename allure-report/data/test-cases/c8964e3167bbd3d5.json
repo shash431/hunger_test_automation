@@ -1,12 +1,12 @@
 {
-  "uid" : "9209877a2397a50e",
+  "uid" : "c8964e3167bbd3d5",
   "name" : "deletePet",
   "fullName" : "com.tests.pets.tests.DeletePet.deletePet",
   "historyId" : "2d6611db389111e87cec9be7dc292d23",
   "time" : {
-    "start" : 1588236901017,
-    "stop" : 1588236901420,
-    "duration" : 403
+    "start" : 1588260019133,
+    "stop" : 1588260019523,
+    "duration" : 390
   },
   "description" : "This request includes delete pets by Id",
   "descriptionHtml" : "<p>This request includes delete pets by Id</p>\n",
@@ -16,7 +16,7 @@
   "beforeStages" : [ {
     "name" : "init",
     "time" : {
-      "start" : 1588236900341
+      "start" : 1588260018483
     },
     "description" : "",
     "status" : "unknown",
@@ -30,8 +30,8 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1588236900341,
-      "stop" : 1588236900341,
+      "start" : 1588260018483,
+      "stop" : 1588260018483,
       "duration" : 0
     },
     "description" : "",
@@ -46,7 +46,7 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236900341
+      "start" : 1588260018483
     },
     "description" : "",
     "status" : "unknown",
@@ -60,25 +60,25 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236900341,
-      "stop" : 1588236901015,
-      "duration" : 674
+      "start" : 1588260018483,
+      "stop" : 1588260019129,
+      "duration" : 646
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2499641dd66404",
+      "uid" : "dc5b43c9608d0185",
       "name" : "Request",
-      "source" : "2499641dd66404.html",
+      "source" : "dc5b43c9608d0185.html",
       "type" : "text/html",
       "size" : 291
     }, {
-      "uid" : "7be559bb6cc553c4",
+      "uid" : "3bf4a12cfa969f4f",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "7be559bb6cc553c4.html",
+      "source" : "3bf4a12cfa969f4f.html",
       "type" : "text/html",
-      "size" : 276810
+      "size" : 274950
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -91,17 +91,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c8ed90da2c0f6146",
+      "uid" : "8ea39d824fb09eed",
       "name" : "Request",
-      "source" : "c8ed90da2c0f6146.html",
+      "source" : "8ea39d824fb09eed.html",
       "type" : "text/html",
-      "size" : 391
+      "size" : 401
     }, {
-      "uid" : "1196356fd7cc4f46",
+      "uid" : "7c87af6ebe0bd499",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "1196356fd7cc4f46.html",
+      "source" : "7c87af6ebe0bd499.html",
       "type" : "text/html",
-      "size" : 666
+      "size" : 671
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -133,7 +133,7 @@
     "value" : "PCWDF507.local"
   }, {
     "name" : "thread",
-    "value" : "8126@PCWDF507.local.main(1)"
+    "value" : "29748@PCWDF507.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9209877a2397a50e.json",
+  "source" : "c8964e3167bbd3d5.json",
   "parameterValues" : [ ]
 }

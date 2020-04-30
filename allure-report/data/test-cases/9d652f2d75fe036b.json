@@ -1,22 +1,22 @@
 {
-  "uid" : "e5aa79cc25c61e76",
-  "name" : "updatePet",
-  "fullName" : "com.tests.pets.tests.PutRequestPets.updatePet",
-  "historyId" : "4d51ea4c03fd0ffcdb0aefb06bea979a",
+  "uid" : "9d652f2d75fe036b",
+  "name" : "getPetById",
+  "fullName" : "com.tests.pets.tests.GetPetTest.getPetById",
+  "historyId" : "b0ecbd155c90aee04b3a6e9254221473",
   "time" : {
-    "start" : 1588236899761,
-    "stop" : 1588236900284,
-    "duration" : 523
+    "start" : 1588260013766,
+    "stop" : 1588260014731,
+    "duration" : 965
   },
-  "description" : "This request includes updates an existing pet",
-  "descriptionHtml" : "<p>This request includes updates an existing pet</p>\n",
+  "description" : "This request includes get pets by Id",
+  "descriptionHtml" : "<p>This request includes get pets by Id</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "init",
     "time" : {
-      "start" : 1588236898992
+      "start" : 1588260009480
     },
     "description" : "",
     "status" : "unknown",
@@ -30,9 +30,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1588236898992,
-      "stop" : 1588236898993,
-      "duration" : 1
+      "start" : 1588260009482,
+      "stop" : 1588260010479,
+      "duration" : 997
     },
     "description" : "",
     "status" : "passed",
@@ -46,7 +46,7 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236898993
+      "start" : 1588260010485
     },
     "description" : "",
     "status" : "unknown",
@@ -60,25 +60,25 @@
   }, {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1588236898993,
-      "stop" : 1588236899756,
-      "duration" : 763
+      "start" : 1588260010485,
+      "stop" : 1588260013547,
+      "duration" : 3062
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "66db92d2105dd81a",
+      "uid" : "22bd006c4c009852",
       "name" : "Request",
-      "source" : "66db92d2105dd81a.html",
+      "source" : "22bd006c4c009852.html",
       "type" : "text/html",
       "size" : 291
     }, {
-      "uid" : "31b330a682364c6d",
+      "uid" : "4f39424eabf54d10",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "31b330a682364c6d.html",
+      "source" : "4f39424eabf54d10.html",
       "type" : "text/html",
-      "size" : 276685
+      "size" : 274294
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -87,21 +87,21 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "This request includes updates an existing pet",
+    "description" : "This request includes get pets by Id",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "59e88aeb11209a9a",
+      "uid" : "4bdd72b155c40d12",
       "name" : "Request",
-      "source" : "59e88aeb11209a9a.html",
+      "source" : "4bdd72b155c40d12.html",
       "type" : "text/html",
-      "size" : 1697
+      "size" : 271
     }, {
-      "uid" : "d1fc3d0f3b4b31e3",
+      "uid" : "88c00817a2dec0f3",
       "name" : "HTTP/1.1 200 OK",
-      "source" : "d1fc3d0f3b4b31e3.html",
+      "source" : "88c00817a2dec0f3.html",
       "type" : "text/html",
-      "size" : 1142
+      "size" : 1174
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -112,28 +112,28 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.tests.pets.tests.PutRequestPets"
+    "value" : "com.tests.pets.tests.GetPetTest"
   }, {
     "name" : "testClass",
-    "value" : "com.tests.pets.tests.PutRequestPets"
+    "value" : "com.tests.pets.tests.GetPetTest"
   }, {
     "name" : "testMethod",
-    "value" : "updatePet"
+    "value" : "getPetById"
   }, {
     "name" : "parentSuite",
     "value" : "Pet(s) Test Suite"
   }, {
     "name" : "suite",
-    "value" : "PUT to update the Pet"
+    "value" : "GET_Pets_By_Status,GET_Pets_By_Id"
   }, {
     "name" : "subSuite",
-    "value" : "com.tests.pets.tests.PutRequestPets"
+    "value" : "com.tests.pets.tests.GetPetTest"
   }, {
     "name" : "host",
     "value" : "PCWDF507.local"
   }, {
     "name" : "thread",
-    "value" : "8126@PCWDF507.local.main(1)"
+    "value" : "29748@PCWDF507.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -142,13 +142,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Update an existing pet"
+    "value" : "GET Pets By Id"
   }, {
     "name" : "epic",
-    "value" : "PUT to update the Pet"
+    "value" : "GET pet(s) by status and Id"
   }, {
     "name" : "feature",
-    "value" : "Put Request"
+    "value" : "Get Request"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e5aa79cc25c61e76.json",
+  "source" : "9d652f2d75fe036b.json",
   "parameterValues" : [ ]
 }
