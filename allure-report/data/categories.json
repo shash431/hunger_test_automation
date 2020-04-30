@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/Users/laddu/IdeaProjects/hunger_test_automation/target/test-classes/pet.json#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n\n  Actual: {\"code\":1,\"type\":\"error\",\"message\":\"Pet not found\"}\n",
+      "children" : [ {
+        "name" : "getPetById",
+        "uid" : "a1906d2b9f031c28",
+        "parentUid" : "c8a96913cada16719679785a334d59c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1588260315978,
+          "stop" : 1588260317075,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8a96913cada16719679785a334d59c4"
+    }, {
+      "name" : "expected [200] but found [404]",
+      "children" : [ {
+        "name" : "postPetFormData",
+        "uid" : "ae9f5055f4ff42e8",
+        "parentUid" : "b9ea128434b6b7e131fbcf1e043871f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1588260319103,
+          "stop" : 1588260319525,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9ea128434b6b7e131fbcf1e043871f7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

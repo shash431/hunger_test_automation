@@ -4,10 +4,10 @@
     "uid" : "9cee059c1af1393dc6d35e1634766825",
     "name" : "GET pet(s) by status and Id",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -15,10 +15,10 @@
     "uid" : "b0c60a436efe33ae2722074c983d560b",
     "name" : "POST a new pet and update the Pet",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

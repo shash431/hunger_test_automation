@@ -1,0 +1,166 @@
+{
+  "uid" : "ba19f4f624ec6669",
+  "name" : "deletePet",
+  "fullName" : "com.tests.pets.tests.DeletePet.deletePet",
+  "historyId" : "2d6611db389111e87cec9be7dc292d23",
+  "time" : {
+    "start" : 1588260019133,
+    "stop" : 1588260019523,
+    "duration" : 390
+  },
+  "description" : "This request includes delete pets by Id",
+  "descriptionHtml" : "<p>This request includes delete pets by Id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1588260018483
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1588260018483,
+      "stop" : 1588260018483,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1588260018483
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1588260018483,
+      "stop" : 1588260019129,
+      "duration" : 646
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad7055bd98de7d57",
+      "name" : "Request",
+      "source" : "ad7055bd98de7d57.html",
+      "type" : "text/html",
+      "size" : 291
+    }, {
+      "uid" : "39944ce97e8ee5cf",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "39944ce97e8ee5cf.html",
+      "type" : "text/html",
+      "size" : 274950
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "This request includes delete pets by Id",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e25fc4eb0b5291c",
+      "name" : "Request",
+      "source" : "e25fc4eb0b5291c.html",
+      "type" : "text/html",
+      "size" : 401
+    }, {
+      "uid" : "d70f9034599833da",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "d70f9034599833da.html",
+      "type" : "text/html",
+      "size" : 671
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.tests.pets.tests.DeletePet"
+  }, {
+    "name" : "testClass",
+    "value" : "com.tests.pets.tests.DeletePet"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePet"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Pet(s) Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "DELETE a Pet"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.tests.pets.tests.DeletePet"
+  }, {
+    "name" : "host",
+    "value" : "PCWDF507.local"
+  }, {
+    "name" : "thread",
+    "value" : "29748@PCWDF507.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "DELETE Pets By Id"
+  }, {
+    "name" : "feature",
+    "value" : "Delete Request"
+  }, {
+    "name" : "epic",
+    "value" : "DELETE a Pet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba19f4f624ec6669.json",
+  "parameterValues" : [ ]
+}
